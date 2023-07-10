@@ -10,9 +10,9 @@ int main() {
         printf("%d ", fibo);
         fibo += nacci;
         printf("%d ", nacci);
-        nacci += fibo;
-    } while (nacci < 300);
+        nacci += fibo;;
     
+    } while (nacci < 300)
     putchar('\n');
     return 0;
 }
