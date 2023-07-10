@@ -11,7 +11,7 @@ int main() {
     int n_lines = 0;    // number of lines
     int n_words = 0;    // number of words
     int p_lines = 0;    // number of partial lines
-    bool inword = false;
+    bool inword = false;    // true if c is in a word
 
     printf("Enter text to be analyzed (| to terminate):\n");
     prev = '\n';        // used to identify complete lines
@@ -19,7 +19,8 @@ int main() {
         n_chars++;      // count characters
         if (c == '\n')
             n_lines++;  // count lines
-        if (!isspace(c) && !inword) {
+        if (!isspace(c) && !inword) {   // more readable than testing for each whitespace character individually
+                                        // if (c != ' ' && c != '\n' && c != '\t\ && !inword)
             inword = true;  // starting a new word
             n_words++;
         }
