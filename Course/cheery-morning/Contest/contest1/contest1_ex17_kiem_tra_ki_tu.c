@@ -14,4 +14,4 @@ int main() {
 		printf("SPECIAL");
 	
 	return 0;
-}-
+}
