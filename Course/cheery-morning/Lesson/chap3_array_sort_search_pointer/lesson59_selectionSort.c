@@ -21,7 +21,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
-    selectionSort(a, n)
+    selectionSort(a, n);
     for (int i = 0; i < n; i++) {
         printf("%d ", a[i]);
     }
