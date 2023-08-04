@@ -1,9 +1,8 @@
 #include <stdio.h>
-int term; /* term used in two expressions */
+float result; /* Result of the divide */
 int main()
 {
-term = 3 * 5;
-printf("Twice %d is %d\n", term, 2*term);
-printf("Three times %d is %d\n", term, 3*term);
-return (0);
+    result = 7.0 / 22.0;
+    printf("The result is %.2f\n", result);
+    return (0);
 }
