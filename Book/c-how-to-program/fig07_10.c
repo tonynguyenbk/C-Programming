@@ -7,7 +7,7 @@
 void convertToUpperCase(char *sPtr);    // prototype
 
 int main() {
-	char xinChao[] = "HiHeLLo";
+	char xinChao[] = "manifest10Toan";
 	printf("%s\n", xinChao);
 	
 	convertToUpperCase(xinChao);
