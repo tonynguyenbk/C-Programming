@@ -7,12 +7,12 @@
 void convertToUpperCase(char *sPtr);    // prototype
 
 int main() {
-	char xinChao[] = "HiHeLLo";
-	printf("%s\n", xinChao);
+	char greetingHi[] = "HiHeLLo";
+	printf("%s\n", greetingHi);
 	
-	convertToUpperCase(xinChao);
+	convertToUpperCase(greetingHi);
     
-	printf("%s\n", xinChao);
+	printf("%s\n", greetingHi);
 	return 0;
 }
 
